@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	/*background: url("/Users/urelmattis/Documents/Website /img/A&TBall.jpeg") no-repeat 50% 50%;*/
+	background: url("http://www.ncat.edu/about/leadership/chancellor/university-relations/photo-gallery/hc-2017/ncat-HC20170139.jpg") no-repeat 50% 50%;
+	/*background: url("http://www.ncataggies.com/pics33/1024/DS/DSTRZZVNQXZQVTA.20170303131536.JPG") no-repeat 50% 50%;*/
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}	
+
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	/*color: #f9f3f4;*/
+	border: 2px solid #036A81;
+	padding: 10px 40px
+	background: #036A81; 
+	width: 500px;
+	border-radius: 25px;
+	color: #ffd700;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.btn{
+	border: solid #036A81 3px;
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.btn:hover{
+	color; #fff;
+	border: solid #fff 3px;
+}

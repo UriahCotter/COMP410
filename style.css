@@ -1,0 +1,95 @@
+body, html{
+	height: 100%; 
+	margin:0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight:400;
+	line-height: 1.8em;
+	color: #fff;
+}
+.img1, .img2, .img3{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#nav{
+	background-color: #036A81;
+}
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#nav ul li:hover{
+	background-color: #333;
+}
+
+#nav ul li a,visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#nav ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+
+.img1{
+	background-image: url("/Users/urelmattis/Documents/Website /img/img1.jpg");
+	min-height: 100%;
+}
+
+.img2{
+	background-image: url("/Users/urelmattis/Documents/Website /img/img1.jpg");
+	min-height: 400px;
+}
+
+.img3{
+	background-image: url("/Users/urelmattis/Documents/Website /img/img1.jpg");
+	min-height: 400px;
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light{
+	background-color: #f4f4f4
+	color:#666;
+}
+.section-dark{
+	background-color: #282E34
+	color:#ddd;
+}
+.text{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.text .border{
+	background-color: #111
+	color:white;
+	padding: 20px;
+}
